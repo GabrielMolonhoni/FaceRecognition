@@ -22,7 +22,9 @@ For model development, we considered the PubFig83 dataset. The available dataset
 ## 3. Model
 We'll be using Facenet as feature extractor.
 
-The Facenet is a TensorFlow implementation of the face recognizer described in the paper "FaceNet: A Unified Embedding for Face Recognition and Clustering". The project also uses ideas from the paper "Deep Face Recognition" from the Visual Geometry Group at Oxford.
+The Facenet is a TensorFlow implementation of the face recognizer described in the paper "FaceNet: A Unified Embedding for Face Recognition and Clustering". 
+The project also uses ideas from the paper "Deep Face Recognition" from the Visual Geometry Group at Oxford.
+The repository of Facenet can be seen at: https://github.com/davidsandberg/facenet
 
 However, for versioning issues, we are gonna use the keras implementation (https://pypi.org/project/keras-facenet/).
 
