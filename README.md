@@ -3,7 +3,7 @@ Face Recognition using Facenet
 
 This work must apply Neural Networks to have face recognition.
 
-The overview of the project can be seen at:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
+The overview of the project can be seen at: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 
 Participants:
 Beatriz Andrade Luiz - CP3016307
