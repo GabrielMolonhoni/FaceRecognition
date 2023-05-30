@@ -29,3 +29,7 @@ The repository of Facenet can be seen at: https://github.com/davidsandberg/facen
 However, for versioning issues, we are gonna use the keras implementation (https://pypi.org/project/keras-facenet/).
 
 On this version, differently from the original from the David Sandberg, this version returns a list of 512 features (embeddings), instead of 128.
+
+## Obs: We used face detection (MTCNN) to crop the images and saved on Disk. The trained images were the cropped ones.
+To crop the images, we used the crop_face.ipynb
+The face detection was used later on the Test Dataset, but used 'live'.
