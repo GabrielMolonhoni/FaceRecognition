@@ -18,3 +18,12 @@ For model development, we considered the PubFig83 dataset. The available dataset
 
 * Color images of the faces of 83 artists, totaling 13,840 images extracted from the Internet.
 * All images were previously resized to 100x100 pixels, having been aligned according to the position of the people's eyes.
+
+## 3. Model
+We'll be using Facenet as feature extractor.
+
+The Facenet is a TensorFlow implementation of the face recognizer described in the paper "FaceNet: A Unified Embedding for Face Recognition and Clustering". The project also uses ideas from the paper "Deep Face Recognition" from the Visual Geometry Group at Oxford.
+
+However, for versioning issues, we are gonna use the keras implementation (https://pypi.org/project/keras-facenet/).
+
+On this version, differently from the original from the David Sandberg, this version returns a list of 512 features, instead of 128.
